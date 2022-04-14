@@ -1,0 +1,99 @@
+.card{
+    width: 40rem;
+    min-height: 30rem;
+    background-color: white;
+    margin: 5rem auto;
+    box-shadow: 10px 10px 15px 15px rgb(116, 46, 46);
+
+}
+
+.img-div{
+    background-color: #b3b3b3;
+    height: 8rem;
+    
+    
+}
+
+.user-image{
+    border: 5px solid white;
+    border-radius: 10rem;
+    margin-top: 2rem;
+}
+
+.data-div{
+    padding: 3rem;
+}
+
+
+.buttons{
+    margin-top: 2.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.data-buttons{
+    border: none;
+    border-radius: 10rem;
+    padding: 5px;
+    box-shadow: 5px 5px 5px gray;
+    cursor: pointer;
+    background-color: #EFEFEF;
+}
+
+.button-img{
+    width: 2rem;
+}
+
+.user-buttons{
+    width: 100%;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.user-new-add{
+    border: none;
+    border-radius: 10px;
+    padding:  0.7rem 0.5rem;
+    width: 10rem;
+    background-color: #9C4D8C;
+    color: white;
+    cursor: pointer;
+}
+
+.user-new-add:hover{
+    background-color: #FEC861;
+    color: black;
+}
+
+.userList{
+    margin: 1rem auto;
+    width: 100%;
+    text-align: center;
+}
+
+.userList-table{
+    width: 100%;
+    margin: auto;
+    background-color: white;
+}
+
+.table-head{
+    background-color: #FEC861; 
+    padding: 0rem;
+    color:#9C4D8C ;
+}
+
+
+.ico-times{ cursor: pointer;}
+.ico-times:before{ content: "\2716"; }
+
+.footer{
+    font-size: 2rem;
+    width: 70%;
+    margin: 2rem auto;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+}

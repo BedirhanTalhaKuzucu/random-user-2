@@ -1,0 +1,13 @@
+.App {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.yellow{
+  width: 100%;
+  height: 15rem;
+  margin-bottom: -15rem;
+  background-color: #FEC861;
+}
+
